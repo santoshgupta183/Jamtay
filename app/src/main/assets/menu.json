@@ -1,0 +1,71 @@
+{
+  "menu" : [{
+      "name" : "Dashboard",
+      "icon" : "ic_home",
+      "isGroup" : true,
+      "hasChildren": false,
+      "subMenu": null
+    }, {
+      "name" : "Search",
+      "icon" : "ic_search",
+      "isGroup" : true,
+      "hasChildren": false,
+      "subMenu": null
+    }, {
+      "name" : "MyProfile",
+      "icon" : "ic_profile",
+      "isGroup" : true,
+      "hasChildren": true,
+      "subMenu": ["View Profile", "Change Password", "Manage Photos", "Manage Account", "My Saved Search", "Upload Video",
+        "Upload ID Proof", "Upload Horoscope", "Delete Account"]
+    },{
+      "name" : "Additional Settings",
+      "icon" : "ic_settings",
+      "isGroup" : true,
+      "hasChildren": false,
+      "subMenu": null
+    }, {
+      "name" : "Message",
+      "icon" : "ic_email",
+      "isGroup" : true,
+      "hasChildren": false,
+      "subMenu": null
+    }, {
+      "name" : "Shortlisted",
+      "icon" : "ic_star",
+      "isGroup" : true,
+      "hasChildren": false,
+      "subMenu": null
+    },{
+      "name" : "Custom Matches",
+      "icon" : "ic_group",
+      "isGroup" : true,
+      "hasChildren": false,
+      "subMenu": null
+    },{
+      "name" : "Photo Request",
+      "icon" : "ic_lock",
+      "isGroup" : true,
+      "hasChildren": false,
+      "subMenu": null
+    },{
+      "name" : "Contact",
+      "icon" : "ic_call",
+      "isGroup" : true,
+      "hasChildren": true,
+      "subMenu": ["Profile | Viewed", "Viewed My Profile", "linked profile"]
+    },{
+    "name" : "Express Interest",
+    "icon" : "ic_sentiment_satisfied",
+    "isGroup" : true,
+    "hasChildren": false,
+    "subMenu": null
+  },{
+    "name" : "Logout",
+    "icon" : "ic_delete",
+    "isGroup" : true,
+    "hasChildren": false,
+    "subMenu": null
+  }
+  ]
+}
